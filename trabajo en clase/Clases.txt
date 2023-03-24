@@ -1,0 +1,31 @@
+preguntas a responder:
+1. cuantos buses estan asignados a una ruta
+2. cuantas rutas pasan por A
+3. cual es la ruta mas corta de A a C.
+4. cual es el tiempo estimado del recorrido de A a B.
+
+
+
+
+clase Ruta { esta clase podría tener una lista de estaciones que conforman la ruta, 
+así como información como la distancia total de la ruta y el tiempo de viaje estimado} 
+
+clase Bus{esta clase podría atributos como el número de identificación del bus, 
+la línea de Transmilenio que cubre, el conductor asignado y la capacidad de pasajeros}
+
+clase Estacion{esta clase podría tener propiedades como el nombre de la estación, 
+la ubicación geográfica, la línea de Transmilenio que la cubre y la hora de llegada y salida de los buses}
+
+clase Maparuta{esta clase podría tener un grafo que representa todas las estaciones y conexiones entre ellas,
+así como información sobre las líneas de Transmilenio que cubren las diferentes rutas y las tarifas de los pasajes.}
+
+clase Pasajero{ esta clase podría tener propiedades como el nombre del pasajero, el destino, la silla asignada y la hora de abordaje.}
+
+
+
+//(clase no necesaria)clase control{esta clase podría actuar como el controlador principal de la aplicación,
+ y podría contener la lógica para planificar rutas, buscar información sobre estaciones y buses,
+ y hacer seguimiento de los tiempos de llegada y salida de los buses}//
+
+SE USO CHAT GPT PARA SABER SI TODAS LAS CLASES ERAN NECESARIAS PARA MODELAR EL EJERCICIO
+
